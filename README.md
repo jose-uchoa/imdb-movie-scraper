@@ -22,8 +22,6 @@
 
 ✓ `Funcionalidade 3:` Utiliza threads para realizar o processo de scraping de forma concorrente, o que pode melhorar a velocidade de execução em relação a scraping sequencial.
 
-✓ `Funcionalidade 4:` Inclui um controle de máximo de threads para limitar o número de requisições concorrentes, evitando sobrecarga no servidor do IMDb.
-
 ## Como utilizar
 
 1. Clone o repositório para o seu ambiente local:
