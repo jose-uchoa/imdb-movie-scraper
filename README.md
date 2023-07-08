@@ -85,5 +85,5 @@ Espero que este projeto seja útil para você!</p>
 
 ## Desenvolvedores
 
-| [<img src="https://avatars.githubusercontent.com/jose-uchoa" width=115><br><sub>Jose Uchoa</sub>](https://github.com/jose-uchoa) |
+| [<img src="https://avatars.githubusercontent.com/jose-uchoa" width=115><br><sub>José Uchôa</sub>](https://github.com/jose-uchoa) |
 | :------------------------------------------------------------------------------------------------------------------------------: |
