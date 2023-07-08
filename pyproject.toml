@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "imdb-movie-scraper"
+version = "0.1.0"
+description = "Web Scraping of Most Popular Movies from IMDb Website"
+authors = ["jose-uchoa <jooseuchoa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "imdb_movie_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.4"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
