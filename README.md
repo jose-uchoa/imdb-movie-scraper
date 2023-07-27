@@ -16,72 +16,71 @@
 
 ## Features
 
-✓ `Funcionalidade 1:` Extrai detalhes de filmes populares do IMDb, incluindo nome do filme, data de lançamento, classificação IMDb e elenco.
+✓ `Feature 1:` Extracts details of popular movies from IMDb, including the movie name, release date, IMDb rating, and cast.
 
-✓ `Funcionalidade 2:` Armazena os detalhes extraídos em um arquivo CSV para posterior análise ou uso em outras aplicações.
+✓ `Feature 2:` Stores the extracted details in a CSV file for further analysis or use in other applications.
 
-✓ `Funcionalidade 3:` Utiliza threads para realizar o processo de scraping de forma concorrente, o que pode melhorar a velocidade de execução em relação a scraping sequencial.
+✓ `Feature 3:` Uses threads to perform the scraping process concurrently, which can improve the execution speed compared to sequential scraping.
 
 ## How to use
 
-#### 1. Ambiente virtual padrão:
+#### 1. Standard Virtual Environment:
 
-1-1. Clone o repositório para o seu ambiente local:
+- Clone the repository to your local environment:
 
-```
-git clone https://github.com/jose-uchoa/imdb-movie-scraper.git
-```
+  ```
+  git clone https://github.com/jose-uchoa/imdb-movie-scraper.git
+  ```
 
-1-2. Instale as dependências do projeto. Recomenda-se o uso de um ambiente virtual para evitar conflitos de dependências:
+- Install project dependencies. It is recommended to use a virtual environment to avoid dependency conflicts:
 
-```
-cd imdb-movie-scraper
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
+  ```
+  cd imdb-movie-scraper
+  python -m venv env
+  source venv/bin/activate  # No Windows: venv\Scripts\activate
+  pip install -r requirements.txt
+  ```
 
-1-3. Execute o script imdb_scraper.py para iniciar o processo de scraping:
+- Run the script imdb_scraper.py to start the scraping process:
 
-```
-python imdb_scraper.py
-```
+  ```
+  python imdb_scraper.py
+  ```
 
 #### 2. Poetry:
 
-2-1. Clone o repositório para o seu ambiente local:
+- Clone the repository to your local environment:
 
-```
-git clone https://github.com/jose-uchoa/imdb-movie-scraper.git
-```
+  ```
+  git clone https://github.com/jose-uchoa/imdb-movie-scraper.git
+  ```
 
-2-2. Instale as dependências do projeto, lembrando que você precisa ter o Poetry instalado:
+- Install project dependencies. Note that you need to have Poetry installed:
 
-```
-cd imdb-movie-scraper
-poetry install --no-root
-poetry run python imdb_scraper.py
-```
+  ```
+  cd imdb-movie-scraper
+  poetry install
+  poetry run python imdb_scraper.py
+  ```
 
 <br>
-O script irá extrair os detalhes de filmes populares do IMDb e armazená-los em um arquivo CSV chamado movies.csv no mesmo diretório do script.
-Após a conclusão da execução, você pode abrir o arquivo movies.csv para visualizar os detalhes dos filmes extraídos.
+The script will extract details of popular movies from IMDb and store them in a CSV file named movies.csv in the same directory as the script. After the execution is complete, you can open the movies.csv file to view the extracted movie details.
 
 ## Settings
 
-<p align="justify">Você pode ajustar o número máximo de threads a serem usadas para execução concorrente editando a variável MAX_THREADS no início do script imdb_scraper.py. Recomenda-se ajustar esse valor de acordo com a capacidade de processamento do seu sistema.</p>
+<p align="justify">You can adjust the maximum number of threads to be used for concurrent execution by editing the MAX_THREADS variable at the beginning of the "imdb_scraper.py" script. It is recommended to adjust this value according to your system's processing capacity.</p>
 
 ## Used Technologies
 
-✓ `Linguagem de programação:` Python
+✓ `Programming Language:` Python
 
-✓ `Frameworks:` requests e beautifulsoup4
+✓ `Frameworks:` Requests e BeautifulSoup4
 
 ## Contribution
 
-<p align="justify">Este projeto foi desenvolvido como um exemplo simples de web scraping em Python e pode ser utilizado como base para projetos mais complexos ou para fins educacionais. Se você deseja contribuir com melhorias ou correções, sinta-se à vontade para abrir issues ou pull requests neste repositório.
+<p align="justify">This project was developed as a simple example of web scraping in Python and can be used as a foundation for more complex projects or for educational purposes. If you wish to contribute with improvements or corrections, feel free to open issues or pull requests in this repository.
 
-Espero que este projeto seja útil para você!</p>
+I hope this project is helpful for you!</p>
 
 ## Developers
 
