@@ -1,20 +1,20 @@
 # IMDb Movie Scraper
 
-### Tópicos
+### Topics
 
-- [Descrição](#descrição)
-- [Funcionalidades](#funcionalidades)
-- [Como utilizar](#como-utilizar)
-- [Configurações](#configurações)
-- [Tecnologias usadas](#tecnologias-usadas)
-- [Contribuição](#contribuição)
-- [Desenvolvedores](#desenvolvedores)
+- [Description](#description)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Settings](#settings)
+- [Used Technologies](#used-technologies)
+- [Contribution](#contribution)
+- [Developers](#developers)
 
-## Descrição
+## Description
 
-<p align="justify">O IMDb Movie Scraper é um projeto de web scraping em Python que extrai detalhes de filmes populares do site IMDb (https://www.imdb.com/) e os armazena em um arquivo CSV. Este projeto utiliza bibliotecas populares como requests, beautifulsoup4 e concurrent.futures para realizar requisições HTTP, fazer o parse do HTML, extrair dados e executar o processo de scraping de forma concorrente utilizando threads.</p>
+<p align="justify">The IMDb Movie Scraper is a Python web scraping project that extracts details of popular movies from the IMDb website (https://www.imdb.com/) and stores them in a CSV file. This project uses popular libraries such as requests, beautifulsoup4, and concurrent.futures to perform HTTP requests, parse HTML, extract data, and execute the scraping process concurrently using threads.</p>
 
-## Funcionalidades
+## Features
 
 ✓ `Funcionalidade 1:` Extrai detalhes de filmes populares do IMDb, incluindo nome do filme, data de lançamento, classificação IMDb e elenco.
 
@@ -22,7 +22,7 @@
 
 ✓ `Funcionalidade 3:` Utiliza threads para realizar o processo de scraping de forma concorrente, o que pode melhorar a velocidade de execução em relação a scraping sequencial.
 
-## Como Utilizar
+## How to use
 
 #### 1. Ambiente virtual padrão:
 
@@ -67,23 +67,23 @@ poetry run python imdb_scraper.py
 O script irá extrair os detalhes de filmes populares do IMDb e armazená-los em um arquivo CSV chamado movies.csv no mesmo diretório do script.
 Após a conclusão da execução, você pode abrir o arquivo movies.csv para visualizar os detalhes dos filmes extraídos.
 
-## Configurações
+## Settings
 
 <p align="justify">Você pode ajustar o número máximo de threads a serem usadas para execução concorrente editando a variável MAX_THREADS no início do script imdb_scraper.py. Recomenda-se ajustar esse valor de acordo com a capacidade de processamento do seu sistema.</p>
 
-## Tecnologias usadas
+## Used Technologies
 
 ✓ `Linguagem de programação:` Python
 
 ✓ `Frameworks:` requests e beautifulsoup4
 
-## Contribuição
+## Contribution
 
 <p align="justify">Este projeto foi desenvolvido como um exemplo simples de web scraping em Python e pode ser utilizado como base para projetos mais complexos ou para fins educacionais. Se você deseja contribuir com melhorias ou correções, sinta-se à vontade para abrir issues ou pull requests neste repositório.
 
 Espero que este projeto seja útil para você!</p>
 
-## Desenvolvedores
+## Developers
 
 | [<img src="https://avatars.githubusercontent.com/jose-uchoa" width=115><br><sub>José Uchôa</sub>](https://github.com/jose-uchoa) |
 | :------------------------------------------------------------------------------------------------------------------------------: |
